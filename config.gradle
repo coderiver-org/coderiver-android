@@ -1,0 +1,11 @@
+ext {
+    android = [
+            applicationId    : "com.opensource.coderiver",
+            compileSdkVersion: 28,
+            buildToolsVersion: '28.0.3',
+            minSdkVersion    : 21,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+}
