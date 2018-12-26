@@ -34,9 +34,37 @@ Dagger2 ：Android最棒的依赖注入框架
   </li>
 </ul>
 
+
+##项目结构：
+
+```
+android 项目本身支持module开发，因此将项目分为 lib module和framework module。 lib module为最底层是必不可少的module，包含帐号管理、登录登出等关键信息。结构如下：
+   app（启动RiverFrameWork，本身不做任何逻辑）
+                                |
+                     CodeRiver（组合各模块功能，形成整个应用）
+                                |
+           功能module1、功能module2  （各功能模块） 
+                                |
+                    CodeRiverSdk（核心api及框架 roomdb,rxjava,okhttp初始化及封装）
+还有 tools module 一些通用工具方法，uikit通用的View及引用的第三方ui框架等
+```
 ## 文件目录
 
 清晰的文件树是项目结构化关键的一部分，请描述当前的结构
+
+## api设计：
+```
+ CodeRiverSdk  module  api设计
+   CodeRiverClient 
+      init 初始化 ，初始化完成功后，若上一次用户已经登录，将执行离线登录。
+      registerServer 注册常驻内存的服务类
+CodeRiver  module  api设计
+    CodeRiverInitHelper
+       init 初始化CodeRiver
+       goHome 跳转到主页面
+app module 调CodeRiverInitHelper.init开始整个应用的使用
+
+```
 
 > e.g.
 
