@@ -12,6 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="21sp"
-        android:text="欢迎使用河码~"/>
+        android:text="欢迎使用河码"/>
 
 </android.support.constraint.ConstraintLayout>
