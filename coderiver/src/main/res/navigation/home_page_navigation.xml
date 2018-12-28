@@ -1,0 +1,23 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home"
+    android:id="@+id/nav_bottom_navagation">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.coderiver.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/home_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_people_square"
+        android:name="com.coderiver.home.PeopleSquareFragment"
+        android:label="@string/title_people_square"
+       >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.coderiver.home.MyFragment"
+        android:label="@string/title_my">
+    </fragment>
+</navigation>

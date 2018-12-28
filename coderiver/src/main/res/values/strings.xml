@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">coderiverframework</string>
     <string name="title_activity_home">HomeActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">主页</string>
+    <string name="title_people_square">人才广场</string>
+    <string name="title_my">我的</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
