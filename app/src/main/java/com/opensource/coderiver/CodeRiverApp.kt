@@ -11,6 +11,6 @@ class CodeRiverApp : Application() {
 
         super.onCreate()
         CodeRiverInitHelper.initWithUI(this)
-        
+
     }
 }
