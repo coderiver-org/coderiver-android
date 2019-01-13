@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
@@ -29,7 +30,7 @@ dependencies {
     api deps.rxrelay
     api deps.rxkotlin
     api deps.rx_android
-
+    api project(":tools")
 
 }
 repositories {

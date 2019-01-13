@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
@@ -36,6 +37,7 @@ dependencies {
     api deps.mockito.android
     api deps.timber
     kapt deps.lifecycle.compiler
+    api deps.glide.runtime
 
 }
 

@@ -118,4 +118,27 @@ For Mac
 
 部署到服务器的相关流程
 
+
+## 
+架构说明
+https://shimo.im/docs/zsJRyyvI018Ns5ls
+
+
+移动端设计图
+https://lanhuapp.com/web/#/item/board?type=share_mark&pid=4c089cf1-096c-4268-b8d0-08820affbd81&param=8e5d2bc3-8249-46d8-a490-b0b6df1518a6&activeSectionId=
+
+CodeRiver 开发规划：
+
+详情见文档：
+https://shimo.im/docs/zD2LN8XIUbQyDviJ/ 《CodeRiver 开发规划》 
+
+
+移动端原型图：
+https://shimo.im/docs/2QrSUcSoHVQwEMlO/ 《CodeRiver移动端原型图 12-10》 
+
+PC端原型图：
+www.coderiver.cn
+
+后端项目架构：
+https://shimo.im/docs/b19673b916a3498b/ 《CodeRiver项目后台架构文档1.0》 
 [^notice]: 此文档为项目主要内容，每个小组根据自己情况完善`README`

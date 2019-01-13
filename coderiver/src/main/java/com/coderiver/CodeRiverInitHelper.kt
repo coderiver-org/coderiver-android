@@ -1,5 +1,6 @@
 package com.coderiver
 
+import android.app.Application
 import android.content.Context
 import com.coderiver.home.HomeActivity
 import com.coderiversdk.CodeRiverClient
@@ -13,7 +14,7 @@ class CodeRiverInitHelper{
         /**
          * 与ui相关需要全局注册的事件
          */
-       fun initWithUI(context: Context){
+       fun initWithUI(context: Application){
            CodeRiverClient.init(context)
        }
         fun goHome(context: Context){
