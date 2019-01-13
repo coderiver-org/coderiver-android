@@ -8,7 +8,9 @@ Created by yanzs on 2018/12/26
  */
 class CodeRiverApp : Application() {
     override fun onCreate() {
+
         super.onCreate()
         CodeRiverInitHelper.initWithUI(this)
+
     }
 }
