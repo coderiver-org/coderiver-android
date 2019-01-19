@@ -49,6 +49,8 @@ class CodeRiverClient {
                     ELoginStatus.OFFLINELOGIN -> managers.forEach { it.onOfflineLogin() }
                     ELoginStatus.LOGINED -> managers.forEach { it.onLogin(AuthManager.INS.loginCount == 1) }
                     ELoginStatus.LOGOUT -> managers.forEach { it.onLoginOut() }
+                    else -> {
+                    }
                 }
             },{
                 it.printStackTrace()
